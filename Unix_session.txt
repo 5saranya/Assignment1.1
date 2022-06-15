@@ -1,0 +1,1048 @@
+Script started on 2022-06-07 17:06:19+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+my_unix_session
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ hs
+hs: command not found
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ pwd
+/home/saranya
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cd ..
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ cd..
+cd..: command not found
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ cd ..
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ ls
+[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib[0m    [01;36mlib64[0m   [01;34mlost+found[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msnap[0m  [01;34msys[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34metc[0m  [01;32minit[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmedia[0m       [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msrv[0m   [30;42mtmp[0m  [01;34mvar[0m
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ cd usr
+]0;saranya@TIGER01810: /usr[01;32msaranya@TIGER01810[00m:[01;34m/usr[00m$ ls
+[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlib32[0m  [01;34mlib64[0m  [01;34mlibexec[0m  [01;34mlibx32[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m
+]0;saranya@TIGER01810: /usr[01;32msaranya@TIGER01810[00m:[01;34m/usr[00m$ cd ..
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ cd home
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ ls
+[0m[01;34msaranya[0m
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ ls -F
+[0m[01;34msaranya[0m/
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ ls --help
+Usage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+                               e.g., '--block-size=M'; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+                               (default if omitted), 'auto', or 'never'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage;
+                               used only with -s and per directory totals
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print entry names without quoting
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+                               (overrides QUOTING_STYLE environment variable)
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            with -l, show time as WORD instead of default
+                               modification time: atime or access or use (-u);
+                               ctime or status (-c); also use specified time
+                               as sort key if --sort=time (newest first)
+      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+  -t                         sort by modification time, newest first
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time, newest first
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+      --help     display this help and exit
+      --version  output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+
+The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+Also the TIME_STYLE environment variable sets the default style to use.
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report ls translation bugs to <https://translationproject.org/team/>
+Full documentation at: <https://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation'
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ man ls
+[?1049h[22;0;0t[?1h=LS(1)                                               User Commands                                               LS(1)[m
+[m
+[1mNAME[0m[m
+       ls - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List  information  about the FILEs (the current directory by default).  Sort entries alphabetically if none of[m
+       [1m-cftuvSUX[0m nor [1m--sort[0m is specified.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              do not ignore entries starting with .[m
+[m
+       [1m-A[0m, [1m--almost-all[0m[m
+              do not list implied . and ..[m
+[m
+       [1m--author[0m[m
+              with [1m-l[0m, print the author of each file[m
+[m
+       [1m-b[0m, [1m--escape[0m[m
+              print C-style escapes for nongraphic characters[m
+[m
+       [1m--block-size[0m=[4mSIZE[24m[m
+              with [1m-l[0m, scale sizes by SIZE when printing them; e.g., '--block-size=M'; see SIZE format below[m
+[m
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+LS(1)                                               User Commands                                               LS(1)[m
+[m
+[1mNAME[0m[m
+       ls - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List  information  about the FILEs (the current directory by default).  Sort entries alphabetically if none of[m
+       [1m-cftuvSUX[0m nor [1m--sort[0m is specified.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              do not ignore entries starting with .[m
+[m
+       [1m-A[0m, [1m--almost-all[0m[m
+              do not list implied . and ..[m
+[m
+       [1m--author[0m[m
+              with [1m-l[0m, print the author of each file[m
+[m
+       [1m-b[0m, [1m--escape[0m[m
+              print C-style escapes for nongraphic characters[m
+[m
+       [1m--block-size[0m=[4mSIZE[24m[m
+              with [1m-l[0m, scale sizes by SIZE when printing them; e.g., '--block-size=M'; see SIZE format below[m
+[m
+       [1m-B[0m, [1m--ignore-backups[0m[m
+              do not list implied entries ending with ~[m
+[m
+       [1m-c[0m     with [1m-lt[0m: sort by, and show, ctime (time of last modification of file  status  information);  with  [1m-l[0m:[m
+              show ctime and sort by name; otherwise: sort by ctime, newest first[m
+[m
+       [1m-C[0m     list entries by columns[m
+[m
+       [1m--color[0m[=[4mWHEN[24m][m
+              colorize the output; WHEN can be 'always' (default if omitted), 'auto', or 'never'; more info below[m
+[m
+       [1m-d[0m, [1m--directory[0m[m
+              list directories themselves, not their contents[m
+[m
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ [K]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ ls -j
+ls: invalid option -- 'j'
+Try 'ls --help' for more information.
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ ls -l -h
+total 4.0K
+drwxr-xr-x 3 saranya saranya 4.0K Jun  7 17:06 [0m[01;34msaranya[0m
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ cd ls -l -h[5Pcd saranya/
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+my_unix_session
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls -h -l[K[K[K[Kl -h
+total 12K
+-rw-r--r-- 1 saranya saranya 12K Jun  7 17:17 my_unix_session
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cd ..
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ cd ..
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ ls
+[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib[0m    [01;36mlib64[0m   [01;34mlost+found[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msnap[0m  [01;34msys[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34metc[0m  [01;32minit[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmedia[0m       [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msrv[0m   [30;42mtmp[0m  [01;34mvar[0m
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ ls -t
+[0m[01;34mrun[0m  [01;34mproc[0m  [01;34msys[0m  [01;34mroot[0m  [01;34mhome[0m  [01;34mboot[0m  [01;34musr[0m    [01;34mopt[0m  [01;36mbin[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34msnap[0m
+[01;34metc[0m  [01;34mdev[0m   [30;42mtmp[0m  [01;34mmnt[0m   [01;32minit[0m  [01;34mvar[0m   [01;34mmedia[0m  [01;34msrv[0m  [01;36mlib[0m  [01;36mlib64[0m  [01;36msbin[0m    [01;34mlost+found[0m
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ ls -t -l
+total 684
+drwxr-xr-x   8 root root    160 Jun  7 17:04 [0m[01;34mrun[0m
+drwxr-xr-x  92 root root   4096 Jun  7 17:04 [01;34metc[0m
+dr-xr-xr-x 167 root root      0 Jun  7 17:04 [01;34mproc[0m
+drwxr-xr-x   8 root root   2720 Jun  7 17:01 [01;34mdev[0m
+dr-xr-xr-x  11 root root      0 Jun  7 17:01 [01;34msys[0m
+drwxrwxrwt   2 root root   4096 Jun  2 17:54 [30;42mtmp[0m
+drwx------   2 root root   4096 Jun  2 17:54 [01;34mroot[0m
+drwxr-xr-x   5 root root   4096 Jun  2 15:45 [01;34mmnt[0m
+drwxr-xr-x   3 root root   4096 Jun  2 15:35 [01;34mhome[0m
+-rwxr-xr-x   3 root root 632096 Feb 10 12:26 [01;32minit[0m
+drwxr-xr-x   2 root root   4096 Apr 23  2020 [01;34mboot[0m
+drwxr-xr-x  13 root root   4096 Apr 23  2020 [01;34mvar[0m
+drwxr-xr-x  14 root root   4096 Apr 23  2020 [01;34musr[0m
+drwxr-xr-x   2 root root   4096 Apr 23  2020 [01;34mmedia[0m
+drwxr-xr-x   2 root root   4096 Apr 23  2020 [01;34mopt[0m
+drwxr-xr-x   2 root root   4096 Apr 23  2020 [01;34msrv[0m
+lrwxrwxrwx   1 root root      7 Apr 23  2020 [01;36mbin[0m -> [01;34musr/bin[0m
+lrwxrwxrwx   1 root root      7 Apr 23  2020 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root      9 Apr 23  2020 [01;36mlib32[0m -> [01;34musr/lib32[0m
+lrwxrwxrwx   1 root root      9 Apr 23  2020 [01;36mlib64[0m -> [01;34musr/lib64[0m
+lrwxrwxrwx   1 root root     10 Apr 23  2020 [01;36mlibx32[0m -> [01;34musr/libx32[0m
+lrwxrwxrwx   1 root root      8 Apr 23  2020 [01;36msbin[0m -> [01;34musr/sbin[0m
+drwxr-xr-x   2 root root   4096 Apr 10  2020 [01;34msnap[0m
+drwx------   2 root root  16384 Apr 10  2019 [01;34mlost+found[0m
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ ls -r
+[0m[01;34mvar[0m  [30;42mtmp[0m  [01;34msrv[0m   [01;36msbin[0m  [01;34mroot[0m  [01;34mopt[0m  [01;34mmedia[0m       [01;36mlibx32[0m  [01;36mlib32[0m  [01;32minit[0m  [01;34metc[0m  [01;34mboot[0m
+[01;34musr[0m  [01;34msys[0m  [01;34msnap[0m  [01;34mrun[0m   [01;34mproc[0m  [01;34mmnt[0m  [01;34mlost+found[0m  [01;36mlib64[0m   [01;36mlib[0m    [01;34mhome[0m  [01;34mdev[0m  [01;36mbin[0m
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ ls -r -t -l
+total 684
+drwx------   2 root root  16384 Apr 10  2019 [0m[01;34mlost+found[0m
+drwxr-xr-x   2 root root   4096 Apr 10  2020 [01;34msnap[0m
+lrwxrwxrwx   1 root root      8 Apr 23  2020 [01;36msbin[0m -> [01;34musr/sbin[0m
+lrwxrwxrwx   1 root root     10 Apr 23  2020 [01;36mlibx32[0m -> [01;34musr/libx32[0m
+lrwxrwxrwx   1 root root      9 Apr 23  2020 [01;36mlib64[0m -> [01;34musr/lib64[0m
+lrwxrwxrwx   1 root root      9 Apr 23  2020 [01;36mlib32[0m -> [01;34musr/lib32[0m
+lrwxrwxrwx   1 root root      7 Apr 23  2020 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root      7 Apr 23  2020 [01;36mbin[0m -> [01;34musr/bin[0m
+drwxr-xr-x   2 root root   4096 Apr 23  2020 [01;34msrv[0m
+drwxr-xr-x   2 root root   4096 Apr 23  2020 [01;34mopt[0m
+drwxr-xr-x   2 root root   4096 Apr 23  2020 [01;34mmedia[0m
+drwxr-xr-x  14 root root   4096 Apr 23  2020 [01;34musr[0m
+drwxr-xr-x  13 root root   4096 Apr 23  2020 [01;34mvar[0m
+drwxr-xr-x   2 root root   4096 Apr 23  2020 [01;34mboot[0m
+-rwxr-xr-x   3 root root 632096 Feb 10 12:26 [01;32minit[0m
+drwxr-xr-x   3 root root   4096 Jun  2 15:35 [01;34mhome[0m
+drwxr-xr-x   5 root root   4096 Jun  2 15:45 [01;34mmnt[0m
+drwx------   2 root root   4096 Jun  2 17:54 [01;34mroot[0m
+drwxrwxrwt   2 root root   4096 Jun  2 17:54 [30;42mtmp[0m
+dr-xr-xr-x  11 root root      0 Jun  7 17:01 [01;34msys[0m
+drwxr-xr-x   8 root root   2720 Jun  7 17:01 [01;34mdev[0m
+dr-xr-xr-x 166 root root      0 Jun  7 17:04 [01;34mproc[0m
+drwxr-xr-x  92 root root   4096 Jun  7 17:04 [01;34metc[0m
+drwxr-xr-x   8 root root    160 Jun  7 17:04 [01;34mrun[0m
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ ls -rt
+[0m[01;34mlost+found[0m  [01;36msbin[0m    [01;36mlib64[0m  [01;36mlib[0m  [01;34msrv[0m  [01;34mmedia[0m  [01;34mvar[0m   [01;32minit[0m  [01;34mmnt[0m   [30;42mtmp[0m  [01;34mdev[0m   [01;34metc[0m
+[01;34msnap[0m        [01;36mlibx32[0m  [01;36mlib32[0m  [01;36mbin[0m  [01;34mopt[0m  [01;34musr[0m    [01;34mboot[0m  [01;34mhome[0m  [01;34mroot[0m  [01;34msys[0m  [01;34mproc[0m  [01;34mrun[0m
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ ls -rtl
+total 684
+drwx------   2 root root  16384 Apr 10  2019 [0m[01;34mlost+found[0m
+drwxr-xr-x   2 root root   4096 Apr 10  2020 [01;34msnap[0m
+lrwxrwxrwx   1 root root      8 Apr 23  2020 [01;36msbin[0m -> [01;34musr/sbin[0m
+lrwxrwxrwx   1 root root     10 Apr 23  2020 [01;36mlibx32[0m -> [01;34musr/libx32[0m
+lrwxrwxrwx   1 root root      9 Apr 23  2020 [01;36mlib64[0m -> [01;34musr/lib64[0m
+lrwxrwxrwx   1 root root      9 Apr 23  2020 [01;36mlib32[0m -> [01;34musr/lib32[0m
+lrwxrwxrwx   1 root root      7 Apr 23  2020 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root      7 Apr 23  2020 [01;36mbin[0m -> [01;34musr/bin[0m
+drwxr-xr-x   2 root root   4096 Apr 23  2020 [01;34msrv[0m
+drwxr-xr-x   2 root root   4096 Apr 23  2020 [01;34mopt[0m
+drwxr-xr-x   2 root root   4096 Apr 23  2020 [01;34mmedia[0m
+drwxr-xr-x  14 root root   4096 Apr 23  2020 [01;34musr[0m
+drwxr-xr-x  13 root root   4096 Apr 23  2020 [01;34mvar[0m
+drwxr-xr-x   2 root root   4096 Apr 23  2020 [01;34mboot[0m
+-rwxr-xr-x   3 root root 632096 Feb 10 12:26 [01;32minit[0m
+drwxr-xr-x   3 root root   4096 Jun  2 15:35 [01;34mhome[0m
+drwxr-xr-x   5 root root   4096 Jun  2 15:45 [01;34mmnt[0m
+drwx------   2 root root   4096 Jun  2 17:54 [01;34mroot[0m
+drwxrwxrwt   2 root root   4096 Jun  2 17:54 [30;42mtmp[0m
+dr-xr-xr-x  11 root root      0 Jun  7 17:01 [01;34msys[0m
+drwxr-xr-x   8 root root   2720 Jun  7 17:01 [01;34mdev[0m
+dr-xr-xr-x 167 root root      0 Jun  7 17:04 [01;34mproc[0m
+drwxr-xr-x  92 root root   4096 Jun  7 17:04 [01;34metc[0m
+drwxr-xr-x   8 root root    160 Jun  7 17:04 [01;34mrun[0m
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ ls -F root
+ls: cannot open directory 'root': Permission denied
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ ls -F root[K[K[K[Kbin
+[0m[01;36mbin[0m@
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ ls -F bin[K[K[Kusr
+[0m[01;34mbin[0m/  [01;34mgames[0m/  [01;34minclude[0m/  [01;34mlib[0m/  [01;34mlib32[0m/  [01;34mlib64[0m/  [01;34mlibexec[0m/  [01;34mlibx32[0m/  [01;34mlocal[0m/  [01;34msbin[0m/  [01;34mshare[0m/  [01;34msrc[0m/
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ ls -F usr/bin
+ [0m[01;36mNF[0m@                                   [01;36miscsiadm[0m@                           [01;32msetarch[0m*
+ [01;32mVGAuthService[0m*                        [01;32mjoin[0m*                               [01;32msetfont[0m*
+ [01;36mX11[0m@                                  [01;32mjournalctl[0m*                         [01;32msetkeycodes[0m*
+[01;32m'['[0m*                                   [01;32mjson_pp[0m*                            [01;32msetleds[0m*
+ [01;32maa-enabled[0m*                           [01;36mjsondiff[0m@                           [01;32msetlogcons[0m*
+ [01;32maa-exec[0m*                              [01;32mjsonpatch[0m*                          [01;32msetmetamode[0m*
+ [01;32madd-apt-repository[0m*                   [01;32mjsonpatch-jsondiff[0m*                 [01;32msetpci[0m*
+ [01;32maddpart[0m*                              [01;32mjsonpointer[0m*                        [01;32msetpriv[0m*
+ [01;32mapport-bug[0m*                           [01;32mjsonschema[0m*                         [01;32msetsid[0m*
+ [01;32mapport-cli[0m*                           [01;32mkbd_mode[0m*                           [01;32msetterm[0m*
+ [01;36mapport-collect[0m@                       [01;32mkbdinfo[0m*                            [01;32msetupcon[0m*
+ [01;32mapport-unpack[0m*                        [01;32mkbxutil[0m*                            [01;32msftp[0m*
+ [01;32mappres[0m*                               [01;36mkeep-one-running[0m@                   [01;36msg[0m@
+ [01;36mapropos[0m@                              [01;32mkernel-install[0m*                     [01;32msg_bg_ctl[0m*
+ [01;32mapt[0m*                                  [01;32mkeyring[0m*                            [01;32msg_compare_and_write[0m*
+ [01;36mapt-add-repository[0m@                   [01;32mkill[0m*                               [01;32msg_copy_results[0m*
+ [01;32mapt-cache[0m*                            [01;32mkillall[0m*                            [01;32msg_dd[0m*
+ [01;32mapt-cdrom[0m*                            [01;32mkmod[0m*                               [01;32msg_decode_sense[0m*
+ [01;32mapt-config[0m*                           [01;32mkmodsign[0m*                           [01;32msg_emc_trespass[0m*
+ [01;32mapt-extracttemplates[0m*                 [01;32mlandscape-sysinfo[0m*                  [01;32msg_format[0m*
+ [01;32mapt-ftparchive[0m*                       [01;32mlast[0m*                               [01;32msg_get_config[0m*
+ [01;32mapt-get[0m*                              [01;36mlastb[0m@                              [01;32msg_get_lba_status[0m*
+ [01;32mapt-key[0m*                              [01;32mlastlog[0m*                            [01;32msg_ident[0m*
+ [01;32mapt-mark[0m*                             [01;32mlcf[0m*                                [01;32msg_inq[0m*
+ [01;32mapt-sortpkgs[0m*                         [01;32mldd[0m*                                [01;32msg_logs[0m*
+ [01;32march[0m*                                 [01;32mless[0m*                               [01;32msg_luns[0m*
+ [37;41mat[0m*                                   [01;32mlessecho[0m*                           [01;32msg_map[0m*
+ [01;36matq[0m@                                  [01;36mlessfile[0m@                           [01;32msg_map26[0m*
+ [01;36matrm[0m@                                 [01;32mlesskey[0m*                            [01;32msg_modes[0m*
+ [01;32mautomat-visualize3[0m*                   [01;32mlesspipe[0m*                           [01;32msg_opcodes[0m*
+ [01;36mawk[0m@                                  [01;32mlexgrog[0m*                            [01;32msg_persist[0m*
+ [01;32mb2sum[0m*                                [01;32mlibnetcfg[0m*                          [01;32msg_prevent[0m*
+ [01;32mbase32[0m*                               [01;32mlink[0m*                               [01;32msg_raw[0m*
+ [01;32mbase64[0m*                               [01;32mlinux-check-removal[0m*                [01;32msg_rbuf[0m*
+ [01;32mbasename[0m*                             [01;32mlinux-update-symlinks[0m*              [01;32msg_rdac[0m*
+ [01;32mbash[0m*                                 [01;32mlinux-version[0m*                      [01;32msg_read[0m*
+ [01;32mbashbug[0m*                              [01;36mlinux32[0m@                            [01;32msg_read_attr[0m*
+ [01;32mbatch[0m*                                [01;36mlinux64[0m@                            [01;32msg_read_block_limits[0m*
+ [01;32mbc[0m*                                   [01;32mlistres[0m*                            [01;32msg_read_buffer[0m*
+ [01;32mboltctl[0m*                              [01;32mln[0m*                                 [01;32msg_read_long[0m*
+ [01;32mbootctl[0m*                              [01;32mlnstat[0m*                             [01;32msg_readcap[0m*
+ [01;32mbsd-from[0m*                             [01;32mloadkeys[0m*                           [01;32msg_reassign[0m*
+ [30;43mbsd-write[0m*                            [01;32mloadunimap[0m*                         [01;32msg_referrals[0m*
+ [01;32mbtrfs[0m*                                [01;32mlocale[0m*                             [01;32msg_rep_zones[0m*
+ [01;32mbtrfs-convert[0m*                        [01;32mlocale-check[0m*                       [01;32msg_requests[0m*
+ [01;32mbtrfs-find-root[0m*                      [01;32mlocalectl[0m*                          [01;32msg_reset[0m*
+ [01;32mbtrfs-image[0m*                          [01;32mlocaledef[0m*                          [01;32msg_reset_wp[0m*
+ [01;32mbtrfs-map-logical[0m*                    [01;32mlogger[0m*                             [01;32msg_rmsn[0m*
+ [01;32mbtrfs-select-super[0m*                   [01;32mlogin[0m*                              [01;32msg_rtpg[0m*
+ [01;36mbtrfsck[0m@                              [01;32mloginctl[0m*                           [01;32msg_safte[0m*
+ [01;32mbtrfstune[0m*                            [01;32mlogname[0m*                            [01;32msg_sanitize[0m*
+ [01;32mbunzip2[0m*                              [01;32mlook[0m*                               [01;32msg_sat_identify[0m*
+ [01;32mbusctl[0m*                               [01;32mlorder[0m*                             [01;32msg_sat_phy_event[0m*
+ [01;32mbusybox[0m*                              [01;32mlowntfs-3g[0m*                         [01;32msg_sat_read_gplog[0m*
+ [01;32mbyobu[0m*                                [01;32mls[0m*                                 [01;32msg_sat_set_features[0m*
+ [01;32mbyobu-config[0m*                         [01;32mlsattr[0m*                             [01;32msg_scan[0m*
+ [01;32mbyobu-ctrl-a[0m*                         [01;32mlsb_release[0m*                        [01;32msg_seek[0m*
+ [01;32mbyobu-disable[0m*                        [01;32mlsblk[0m*                              [01;32msg_senddiag[0m*
+ [01;32mbyobu-disable-prompt[0m*                 [01;32mlscpu[0m*                              [01;32msg_ses[0m*
+ [01;32mbyobu-enable[0m*                         [01;32mlshw[0m*                               [01;32msg_ses_microcode[0m*
+ [01;32mbyobu-enable-prompt[0m*                  [01;32mlsinitramfs[0m*                        [01;32msg_start[0m*
+ [01;32mbyobu-export[0m*                         [01;32mlsipc[0m*                              [01;32msg_stpg[0m*
+ [01;32mbyobu-janitor[0m*                        [01;32mlslocks[0m*                            [01;32msg_stream_ctl[0m*
+ [01;32mbyobu-keybindings[0m*                    [01;32mlslogins[0m*                           [01;32msg_sync[0m*
+ [01;32mbyobu-launch[0m*                         [01;32mlsmem[0m*                              [01;32msg_test_rwbuf[0m*
+ [01;32mbyobu-launcher[0m*                       [01;36mlsmod[0m@                              [01;32msg_timestamp[0m*
+ [01;32mbyobu-launcher-install[0m*               [01;32mlsns[0m*                               [01;32msg_turs[0m*
+ [01;32mbyobu-launcher-uninstall[0m*             [01;32mlsof[0m*                               [01;32msg_unmap[0m*
+ [01;32mbyobu-layout[0m*                         [01;32mlspci[0m*                              [01;32msg_verify[0m*
+ [01;32mbyobu-prompt[0m*                         [01;32mlspgpot[0m*                            [01;32msg_vpd[0m*
+ [01;32mbyobu-quiet[0m*                          [01;32mlsusb[0m*                              [01;32msg_wr_mode[0m*
+ [01;32mbyobu-reconnect-sockets[0m*              [01;32mltrace[0m*                             [01;32msg_write_buffer[0m*
+ [01;36mbyobu-screen[0m@                         [01;32mluit[0m*                               [01;32msg_write_long[0m*
+ [01;32mbyobu-select-backend[0m*                 [01;32mlz4[0m*                                [01;32msg_write_same[0m*
+ [01;32mbyobu-select-profile[0m*                 [01;36mlz4c[0m@                               [01;32msg_write_verify[0m*
+ [01;32mbyobu-select-session[0m*                 [01;36mlz4cat[0m@                             [01;32msg_write_x[0m*
+ [01;32mbyobu-shell[0m*                          [01;36mlzcat[0m@                              [01;32msg_xcopy[0m*
+ [01;32mbyobu-silent[0m*                         [01;36mlzcmp[0m@                              [01;32msg_zone[0m*
+ [01;32mbyobu-status[0m*                         [01;36mlzdiff[0m@                             [01;32msginfo[0m*
+ [01;32mbyobu-status-detail[0m*                  [01;36mlzegrep[0m@                            [01;32msgm_dd[0m*
+ [01;36mbyobu-tmux[0m@                           [01;36mlzfgrep[0m@                            [01;32msgp_dd[0m*
+ [01;32mbyobu-ugraph[0m*                         [01;36mlzgrep[0m@                             [01;36msh[0m@
+ [01;32mbyobu-ulevel[0m*                         [01;36mlzless[0m@                             [01;32msha1sum[0m*
+ [01;32mbzcat[0m*                                [01;36mlzma[0m@                               [01;32msha224sum[0m*
+ [01;36mbzcmp[0m@                                [01;32mlzmainfo[0m*                           [01;32msha256sum[0m*
+ [01;32mbzdiff[0m*                               [01;36mlzmore[0m@                             [01;32msha384sum[0m*
+ [01;36mbzegrep[0m@                              [01;32mmailmail3[0m*                          [01;32msha512sum[0m*
+ [01;32mbzexe[0m*                                [01;32mman[0m*                                [01;32mshasum[0m*
+ [01;36mbzfgrep[0m@                              [01;32mman-recode[0m*                         [01;32mshowconsolefont[0m*
+ [01;32mbzgrep[0m*                               [01;32mmandb[0m*                              [01;32mshowkey[0m*
+ [01;32mbzip2[0m*                                [01;32mmanifest[0m*                           [01;32mshred[0m*
+ [01;32mbzip2recover[0m*                         [01;32mmanpath[0m*                            [01;32mshuf[0m*
+ [01;36mbzless[0m@                               [01;32mmapscrn[0m*                            [01;32mskill[0m*
+ [01;32mbzmore[0m*                               [01;32mmawk[0m*                               [01;32mslabtop[0m*
+ [01;32mc_rehash[0m*                             [01;32mmcookie[0m*                            [01;32msleep[0m*
+ [01;36mcal[0m@                                  [01;32mmd5sum[0m*                             [01;36mslogin[0m@
+ [01;32mcalendar[0m*                             [01;36mmd5sum.textutils[0m@                   [01;32msnap[0m*
+ [01;36mcaptoinfo[0m@                            [01;32mmdig[0m*                               [01;36msnapctl[0m@
+ [01;32mcat[0m*                                  [01;32mmesa-overlay-control.py[0m*            [01;32msnapfuse[0m*
+ [01;32mcatchsegv[0m*                            [01;32mmesg[0m*                               [01;36msnice[0m@
+ [01;32mcatman[0m*                               [01;32mmigrate-pubring-from-classic-gpg[0m*   [01;32msoelim[0m*
+ [01;32mcautious-launcher[0m*                    [01;32mminiterm[0m*                           [01;32msort[0m*
+ [01;32mcftp3[0m*                                [01;32mmk_modmap[0m*                          [01;36msosreport[0m@
+ [30;43mchage[0m*                                [01;32mmkdir[0m*                              [01;32msplain[0m*
+ [01;36mchardet3[0m@                             [01;32mmkfifo[0m*                             [01;32msplit[0m*
+ [01;32mchardetect3[0m*                          [01;32mmknod[0m*                              [01;32msplitfont[0m*
+ [01;32mchattr[0m*                               [01;32mmksquashfs[0m*                         [01;32mss[0m*
+ [01;32mchcon[0m*                                [01;32mmktemp[0m*                             [01;32mssh[0m*
+ [01;32mcheck-language-support[0m*               [01;32mmore[0m*                               [01;32mssh-add[0m*
+ [37;41mchfn[0m*                                 [37;41mmount[0m*                              [30;43mssh-agent[0m*
+ [01;32mchgrp[0m*                                [01;32mmountpoint[0m*                         [01;32mssh-argv0[0m*
+ [01;32mchmod[0m*                                [01;36mmt[0m@                                 [01;32mssh-copy-id[0m*
+ [01;32mchoom[0m*                                [01;32mmt-gnu[0m*                             [01;32mssh-import-id[0m*
+ [01;32mchown[0m*                                [01;32mmtr[0m*                                [01;32mssh-import-id-gh[0m*
+ [01;32mchrt[0m*                                 [01;32mmtr-packet[0m*                         [01;32mssh-import-id-lp[0m*
+ [37;41mchsh[0m*                                 [01;32mmv[0m*                                 [01;32mssh-keygen[0m*
+ [01;32mchvt[0m*                                 [01;32mnamei[0m*                              [01;32mssh-keyscan[0m*
+ [01;32mckbcomp[0m*                              [01;32mnano[0m*                               [01;32mstat[0m*
+ [01;32mckeygen3[0m*                             [01;36mnawk[0m@                               [01;36mstatic-sh[0m@
+ [01;32mcksum[0m*                                [01;36mnc[0m@                                 [01;32mstdbuf[0m*
+ [01;32mclear[0m*                                [01;32mnc.openbsd[0m*                         [01;32mstrace[0m*
+ [01;32mclear_console[0m*                        [01;32mncal[0m*                               [01;32mstrace-log-merge[0m*
+ [01;32mcloud-id[0m*                             [01;32mneqn[0m*                               [01;32mstty[0m*
+ [01;32mcloud-init[0m*                           [01;36mnetcat[0m@                             [37;41msu[0m*
+ [01;32mcloud-init-per[0m*                       [01;32mnetkit-ftp[0m*                         [37;41msudo[0m*
+ [01;32mcmp[0m*                                  [01;32mnetworkctl[0m*                         [01;36msudoedit[0m@
+ [01;32mcodepage[0m*                             [01;32mnetworkd-dispatcher[0m*                [01;32msudoreplay[0m*
+ [01;32mcol[0m*                                  [37;41mnewgrp[0m*                             [01;32msum[0m*
+ [01;32mcol1[0m*                                 [01;32mngettext[0m*                           [01;32msymcryptrun[0m*
+ [01;36mcol2[0m@                                 [01;32mnice[0m*                               [01;32msync[0m*
+ [01;36mcol3[0m@                                 [01;36mnisdomainname[0m@                      [01;32msystemctl[0m*
+ [01;36mcol4[0m@                                 [01;32mnl[0m*                                 [01;36msystemd[0m@
+ [01;36mcol5[0m@                                 [01;32mnohup[0m*                              [01;32msystemd-analyze[0m*
+ [01;36mcol6[0m@                                 [01;32mnproc[0m*                              [01;32msystemd-ask-password[0m*
+ [01;36mcol7[0m@                                 [01;32mnroff[0m*                              [01;32msystemd-cat[0m*
+ [01;36mcol8[0m@                                 [01;32mnsenter[0m*                            [01;32msystemd-cgls[0m*
+ [01;36mcol9[0m@                                 [01;32mnslookup[0m*                           [01;32msystemd-cgtop[0m*
+ [01;32mcolcrt[0m*                               [01;32mnstat[0m*                              [01;32msystemd-delta[0m*
+ [01;32mcolrm[0m*                                [01;32mnsupdate[0m*                           [01;32msystemd-detect-virt[0m*
+ [01;32mcolumn[0m*                               [01;32mntfs-3g[0m*                            [01;32msystemd-escape[0m*
+ [01;32mcomm[0m*                                 [01;32mntfs-3g.probe[0m*                      [01;32msystemd-hwdb[0m*
+ [01;36mcompose[0m@                              [01;32mntfscat[0m*                            [01;32msystemd-id128[0m*
+ [01;32mconch3[0m*                               [01;32mntfscluster[0m*                        [01;32msystemd-inhibit[0m*
+ [01;32mcorelist[0m*                             [01;32mntfscmp[0m*                            [01;32msystemd-machine-id-setup[0m*
+ [01;32mcp[0m*                                   [01;32mntfsdecrypt[0m*                        [01;32msystemd-mount[0m*
+ [01;32mcpan[0m*                                 [01;32mntfsfallocate[0m*                      [01;32msystemd-notify[0m*
+ [01;32mcpan5.30-x86_64-linux-gnu[0m*            [01;32mntfsfix[0m*                            [01;32msystemd-path[0m*
+ [01;32mcpio[0m*                                 [01;32mntfsinfo[0m*                           [01;36msystemd-resolve[0m@
+ [30;43mcrontab[0m*                              [01;32mntfsls[0m*                             [01;32msystemd-run[0m*
+ [01;32mcsplit[0m*                               [01;32mntfsmove[0m*                           [01;32msystemd-socket-activate[0m*
+ [01;32mctail[0m*                                [01;32mntfsrecover[0m*                        [01;32msystemd-stdio-bridge[0m*
+ [01;36mctstat[0m@                               [01;32mntfssecaudit[0m*                       [01;32msystemd-sysusers[0m*
+ [01;32mcurl[0m*                                 [01;32mntfstruncate[0m*                       [01;32msystemd-tmpfiles[0m*
+ [01;32mcut[0m*                                  [01;32mntfsusermap[0m*                        [01;32msystemd-tty-ask-password-agent[0m*
+ [01;32mcvtsudoers[0m*                           [01;32mntfswipe[0m*                           [01;36msystemd-umount[0m@
+ [01;32mdash[0m*                                 [01;32mnumfmt[0m*                             [01;32mtabs[0m*
+ [01;32mdate[0m*                                 [01;32mod[0m*                                 [01;32mtac[0m*
+ [01;32mdbus-cleanup-sockets[0m*                 [01;32moem-getlogs[0m*                        [01;32mtail[0m*
+ [01;32mdbus-daemon[0m*                          [01;36mon_ac_power[0m@                        [01;32mtar[0m*
+ [01;32mdbus-launch[0m*                          [01;32mopenssl[0m*                            [01;32mtaskset[0m*
+ [01;32mdbus-monitor[0m*                         [01;32mopenvt[0m*                             [01;32mtbl[0m*
+ [01;32mdbus-run-session[0m*                     [01;32mpa-info[0m*                            [01;32mtee[0m*
+ [01;32mdbus-send[0m*                            [01;32mpacat[0m*                              [01;36mtelnet[0m@
+ [01;32mdbus-update-activation-environment[0m*   [01;32mpacmd[0m*                              [01;32mtelnet.netkit[0m*
+ [01;32mdbus-uuidgen[0m*                         [01;32mpactl[0m*                              [01;32mtempfile[0m*
+ [01;32mdd[0m*                                   [01;32mpadsp[0m*                              [01;32mtest[0m*
+ [01;32mdeallocvt[0m*                            [01;36mpager[0m@                              [01;32mtic[0m*
+ [01;32mdeb-systemd-helper[0m*                   [01;36mpamon[0m@                              [01;32mtime[0m*
+ [01;32mdeb-systemd-invoke[0m*                   [01;36mpaplay[0m@                             [01;32mtimedatectl[0m*
+ [01;32mdebconf[0m*                              [01;36mparec[0m@                              [01;32mtimeout[0m*
+ [01;32mdebconf-apt-progress[0m*                 [01;36mparecord[0m@                           [01;32mtkconch3[0m*
+ [01;32mdebconf-communicate[0m*                  [01;32mpartx[0m*                              [01;32mtload[0m*
+ [01;32mdebconf-copydb[0m*                       [37;41mpasswd[0m*                             [01;32mtmux[0m*
+ [01;32mdebconf-escape[0m*                       [01;32mpaste[0m*                              [01;32mtoe[0m*
+ [01;32mdebconf-set-selections[0m*               [01;32mpastebinit[0m*                         [01;32mtop[0m*
+ [01;32mdebconf-show[0m*                         [01;32mpasuspender[0m*                        [01;32mtouch[0m*
+ [01;32mdelpart[0m*                              [01;32mpatch[0m*                              [01;32mtput[0m*
+ [01;32mdelv[0m*                                 [01;32mpathchk[0m*                            [01;32mtr[0m*
+ [01;32mdf[0m*                                   [01;32mpax11publish[0m*                       [01;32mtracepath[0m*
+ [01;32mdfu-tool[0m*                             [01;36mpbget[0m@                              [01;36mtraceroute6[0m@
+ [01;32mdh_bash-completion[0m*                   [01;32mpbput[0m*                              [01;32mtraceroute6.iputils[0m*
+ [01;32mdiff[0m*                                 [01;36mpbputs[0m@                             [01;32mtrial3[0m*
+ [01;32mdiff3[0m*                                [01;36mpdb3[0m@                               [01;32mtroff[0m*
+ [01;32mdig[0m*                                  [01;36mpdb3.8[0m@                             [01;32mtrue[0m*
+ [01;32mdir[0m*                                  [01;32mpeekfd[0m*                             [01;32mtruncate[0m*
+ [01;32mdircolors[0m*                            [01;32mperl[0m*                               [01;32mtset[0m*
+ [01;32mdirmngr[0m*                              [01;32mperl5.30-x86_64-linux-gnu[0m*          [01;32mtsort[0m*
+ [01;32mdirmngr-client[0m*                       [01;32mperl5.30.0[0m*                         [01;32mtty[0m*
+ [01;32mdirname[0m*                              [01;32mperlbug[0m*                            [01;32mtwist3[0m*
+ [01;32mdmesg[0m*                                [01;32mperldoc[0m*                            [01;32mtwistd3[0m*
+ [01;36mdnsdomainname[0m@                        [01;32mperlivp[0m*                            [01;32mtzselect[0m*
+ [01;32mdo-release-upgrade[0m*                   [01;32mperlthanks[0m*                         [01;36mua[0m@
+ [01;36mdomainname[0m@                           [01;36mpftp[0m@                               [01;32mubuntu-advantage[0m*
+ [01;32mdpkg[0m*                                 [01;32mpgrep[0m*                              [01;36mubuntu-bug[0m@
+ [01;32mdpkg-deb[0m*                             [01;32mpic[0m*                                [01;36mubuntu-core-launcher[0m@
+ [01;32mdpkg-divert[0m*                          [01;36mpico[0m@                               [01;32mubuntu-security-status[0m*
+ [01;32mdpkg-maintscript-helper[0m*              [01;32mpiconv[0m*                             [01;32mucf[0m*
+ [01;32mdpkg-query[0m*                           [01;36mpidof[0m@                              [01;32mucfq[0m*
+ [01;32mdpkg-split[0m*                           [01;36mpinentry[0m@                           [01;32mucfr[0m*
+ [01;32mdpkg-statoverride[0m*                    [01;32mpinentry-curses[0m*                    [01;32mudevadm[0m*
+ [01;32mdpkg-trigger[0m*                         [01;32mping[0m*                               [01;32mul[0m*
+ [01;32mdu[0m*                                   [01;36mping4[0m@                              [01;32mulockmgr_server[0m*
+ [01;32mdumpkeys[0m*                             [01;36mping6[0m@                              [37;41mumount[0m*
+ [01;32meatmydata[0m*                            [01;32mpinky[0m*                              [01;32muname[0m*
+ [01;32mec2metadata[0m*                          [01;32mpkaction[0m*                           [01;32munattended-upgrade[0m*
+ [01;32mecho[0m*                                 [01;32mpkcheck[0m*                            [01;36munattended-upgrades[0m@
+ [01;32med[0m*                                   [01;32mpkcon[0m*                              [01;32muncompress[0m*
+ [01;36medit[0m@                                 [37;41mpkexec[0m*                             [01;32munexpand[0m*
+ [01;36meditor[0m@                               [01;36mpkill[0m@                              [01;32municode_start[0m*
+ [01;32meditres[0m*                              [01;32mpkmon[0m*                              [01;32municode_stop[0m*
+ [01;32megrep[0m*                                [01;32mpkttyagent[0m*                         [01;32muniq[0m*
+ [01;32meject[0m*                                [01;32mpl2pm[0m*                              [01;32munlink[0m*
+ [01;32menc2xs[0m*                               [01;32mpldd[0m*                               [01;36munlz4[0m@
+ [01;32mencguess[0m*                             [01;32mplymouth[0m*                           [01;36munlzma[0m@
+ [01;32menv[0m*                                  [01;32mpmap[0m*                               [01;32munmkinitramfs[0m*
+ [01;32menvsubst[0m*                             [01;32mpod2html[0m*                           [01;32munshare[0m*
+ [01;32meqn[0m*                                  [01;32mpod2man[0m*                            [01;32munsquashfs[0m*
+ [01;36mex[0m@                                   [01;32mpod2text[0m*                           [01;36munxz[0m@
+ [01;32mexpand[0m*                               [01;32mpod2usage[0m*                          [01;32mupdate-alternatives[0m*
+ [30;43mexpiry[0m*                               [01;32mpodchecker[0m*                         [01;32mupdate-mime-database[0m*
+ [01;32mexpr[0m*                                 [01;32mpodselect[0m*                          [01;32muptime[0m*
+ [01;32mfactor[0m*                               [01;32mpollinate[0m*                          [01;32musb-devices[0m*
+ [01;32mfaillog[0m*                              [01;32mpr[0m*                                 [01;32musbhid-dump[0m*
+ [01;32mfallocate[0m*                            [01;32mpreconv[0m*                            [01;32musbreset[0m*
+ [01;32mfalse[0m*                                [01;36mprint[0m@                              [01;32musers[0m*
+ [01;32mfgconsole[0m*                            [01;32mprintenv[0m*                           [01;32mutmpdump[0m*
+ [01;32mfgrep[0m*                                [01;32mprinterbanner[0m*                      [01;32muuidgen[0m*
+ [01;32mfile[0m*                                 [01;32mprintf[0m*                             [01;32muuidparse[0m*
+ [01;32mfinalrd[0m*                              [01;32mprlimit[0m*                            [01;32mvcs-run[0m*
+ [01;32mfincore[0m*                              [01;32mprove[0m*                              [01;32mvdir[0m*
+ [01;32mfind[0m*                                 [01;32mprtstat[0m*                            [01;36mvi[0m@
+ [01;32mfindmnt[0m*                              [01;32mps[0m*                                 [01;36mview[0m@
+ [01;32mflock[0m*                                [01;36mpsfaddtable[0m@                        [01;32mviewres[0m*
+ [01;32mfmt[0m*                                  [01;36mpsfgettable[0m@                        [01;32mvigpg[0m*
+ [01;32mfold[0m*                                 [01;36mpsfstriptable[0m@                      [01;36mvim[0m@
+ [01;32mfree[0m*                                 [01;32mpsfxtable[0m*                          [01;32mvim.basic[0m*
+ [01;36mfrom[0m@                                 [01;32mpslog[0m*                              [01;32mvim.tiny[0m*
+ [01;36mftp[0m@                                  [01;32mpstree[0m*                             [01;36mvimdiff[0m@
+ [01;32mfuser[0m*                                [01;36mpstree.x11[0m@                         [01;32mvimtutor[0m*
+ [37;41mfusermount[0m*                           [01;32mptar[0m*                               [01;32mvmhgfs-fuse[0m*
+ [01;32mfwupdagent[0m*                           [01;32mptardiff[0m*                           [01;32mvmstat[0m*
+ [01;32mfwupdate[0m*                             [01;32mptargrep[0m*                           [01;32mvmtoolsd[0m*
+ [01;32mfwupdmgr[0m*                             [01;32mptx[0m*                                [01;32mvmware-checkvm[0m*
+ [01;32mfwupdtool[0m*                            [01;32mpurge-old-kernels[0m*                  [01;32mvmware-hgfsclient[0m*
+ [01;32mfwupdtpmevlog[0m*                        [01;32mpwd[0m*                                [01;32mvmware-namespace-cmd[0m*
+ [01;32mgapplication[0m*                         [01;32mpwdx[0m*                               [01;32mvmware-rpctool[0m*
+ [01;32mgawk[0m*                                 [01;32mpy3clean[0m*                           [01;32mvmware-toolbox-cmd[0m*
+ [01;32mgdbus[0m*                                [01;32mpy3compile[0m*                         [01;32mvmware-vgauth-cmd[0m*
+ [01;36mgeqn[0m@                                 [01;36mpy3versions[0m@                        [01;32mvmware-vgauth-smoketest[0m*
+ [01;32mgetconf[0m*                              [01;36mpydoc3[0m@                             [01;32mvmware-vmblock-fuse[0m*
+ [01;32mgetent[0m*                               [01;32mpydoc3.8[0m*                           [01;32mvmware-xferlogs[0m*
+ [01;32mgetkeycodes[0m*                          [01;36mpygettext3[0m@                         [01;32mvolname[0m*
+ [01;32mgetopt[0m*                               [01;32mpygettext3.8[0m*                       [01;36mw[0m@
+ [01;32mgettext[0m*                              [01;32mpyhtmlizer3[0m*                        [01;32mw.procps[0m*
+ [01;32mgettext.sh[0m*                           [01;32mpyjwt3[0m*                             [30;43mwall[0m*
+ [01;36mginstall-info[0m@                        [01;36mpython3[0m@                            [01;32mwatch[0m*
+ [01;32mgio[0m*                                  [01;32mpython3.8[0m*                          [01;32mwatchgnupg[0m*
+ [01;36mgio-querymodules[0m@                     [01;36mrbash[0m@                              [01;32mwc[0m*
+ [01;32mgit[0m*                                  [01;36mrcp[0m@                                [01;32mwdctl[0m*
+ [01;36mgit-receive-pack[0m@                     [01;32mrdma[0m*                               [01;32mwget[0m*
+ [01;32mgit-shell[0m*                            [01;32mreadlink[0m*                           [01;32mwhatis[0m*
+ [01;36mgit-upload-archive[0m@                   [01;32mrealpath[0m*                           [01;32mwhereis[0m*
+ [01;36mgit-upload-pack[0m@                      [01;32mred[0m*                                [01;32mwhich[0m*
+ [01;36mglib-compile-schemas[0m@                 [01;32mrename.ul[0m*                          [01;32mwhiptail[0m*
+ [37;41mgpasswd[0m*                              [01;32mrenice[0m*                             [01;32mwho[0m*
+ [01;32mgpg[0m*                                  [01;32mrescan-scsi-bus.sh[0m*                 [01;32mwhoami[0m*
+ [01;32mgpg-agent[0m*                            [01;36mreset[0m@                              [01;32mwifi-status[0m*
+ [01;32mgpg-connect-agent[0m*                    [01;32mresizecons[0m*                         [01;36mwrite[0m@
+ [01;32mgpg-wks-server[0m*                       [01;32mresizepart[0m*                         [01;32mwslfetch[0m*
+ [01;32mgpg-zip[0m*                              [01;32mresolvectl[0m*                         [01;36mwslpath[0m@
+ [01;32mgpgcompose[0m*                           [01;32mrev[0m*                                [01;32mwslsys[0m*
+ [01;32mgpgconf[0m*                              [01;32mrgrep[0m*                              [01;32mwslupath[0m*
+ [01;32mgpgparsemail[0m*                         [01;36mrlogin[0m@                             [01;32mwslusc[0m*
+ [01;32mgpgsm[0m*                                [01;32mrm[0m*                                 [01;32mwslvar[0m*
+ [01;32mgpgsplit[0m*                             [01;32mrmdir[0m*                              [01;32mwslview[0m*
+ [01;32mgpgtar[0m*                               [01;36mrnano[0m@                              [01;36mwww-browser[0m@
+ [01;32mgpgv[0m*                                 [01;32mroutef[0m*                             [01;36mx-www-browser[0m@
+ [01;36mgpic[0m@                                 [01;32mroutel[0m*                             [01;36mx86_64[0m@
+ [01;32mgrep[0m*                                 [01;36mrrsync[0m@                             [01;32mxargs[0m*
+ [01;32mgresource[0m*                            [01;36mrsh[0m@                                [01;32mxauth[0m*
+ [01;32mgroff[0m*                                [01;32mrsync[0m*                              [01;32mxdg-user-dir[0m*
+ [01;32mgrog[0m*                                 [01;36mrtstat[0m@                             [01;32mxdg-user-dirs-update[0m*
+ [01;32mgrops[0m*                                [01;32mrun-mailcap[0m*                        [01;32mxdpyinfo[0m*
+ [01;32mgrotty[0m*                               [01;32mrun-one[0m*                            [01;32mxdriinfo[0m*
+ [01;32mgroups[0m*                               [01;36mrun-one-constantly[0m@                 [01;32mxev[0m*
+ [01;32mgrowpart[0m*                             [01;36mrun-one-until-failure[0m@              [01;32mxfd[0m*
+ [01;32mgsettings[0m*                            [01;36mrun-one-until-success[0m@              [01;32mxfontsel[0m*
+ [01;36mgtbl[0m@                                 [01;32mrun-parts[0m*                          [01;32mxkill[0m*
+ [01;32mgunzip[0m*                               [01;36mrun-this-one[0m@                       [01;32mxlsatoms[0m*
+ [01;32mgzexe[0m*                                [01;32mruncon[0m*                             [01;32mxlsclients[0m*
+ [01;32mgzip[0m*                                 [01;36mrview[0m@                              [01;32mxlsfonts[0m*
+ [01;32mh2ph[0m*                                 [01;36mrvim[0m@                               [01;32mxmessage[0m*
+ [01;32mh2xs[0m*                                 [01;32msavelog[0m*                            [01;32mxprop[0m*
+ [01;36mhd[0m@                                   [01;32msbattach[0m*                           [01;32mxsubpp[0m*
+ [01;32mhead[0m*                                 [01;32msbkeysync[0m*                          [01;32mxvinfo[0m*
+ [01;32mhelpztags[0m*                            [01;32msbsiglist[0m*                          [01;32mxwininfo[0m*
+ [01;32mhexdump[0m*                              [01;32msbsign[0m*                             [01;32mxxd[0m*
+ [01;32mhost[0m*                                 [01;32msbvarsign[0m*                          [01;32mxz[0m*
+ [01;32mhostid[0m*                               [01;32msbverify[0m*                           [01;36mxzcat[0m@
+ [01;32mhostname[0m*                             [01;32mscp[0m*                                [01;36mxzcmp[0m@
+ [01;32mhostnamectl[0m*                          [01;32mscreen[0m*                             [01;32mxzdiff[0m*
+ [01;32mhtop[0m*                                 [01;32mscreendump[0m*                         [01;36mxzegrep[0m@
+ [01;32mhwe-support-status[0m*                   [01;32mscript[0m*                             [01;36mxzfgrep[0m@
+ [01;36mi386[0m@                                 [01;32mscriptreplay[0m*                       [01;32mxzgrep[0m*
+ [01;32miconv[0m*                                [01;32mscsi_logging_level[0m*                 [01;32mxzless[0m*
+ [01;32mid[0m*                                   [01;32mscsi_mandat[0m*                        [01;32mxzmore[0m*
+ [01;32minfo[0m*                                 [01;32mscsi_readcap[0m*                       [01;32myes[0m*
+ [01;36minfobrowser[0m@                          [01;32mscsi_ready[0m*                         [01;36mypdomainname[0m@
+ [01;32minfocmp[0m*                              [01;32mscsi_satl[0m*                          [01;32mzcat[0m*
+ [01;36minfotocap[0m@                            [01;32mscsi_start[0m*                         [01;32mzcmp[0m*
+ [01;32minstall[0m*                              [01;32mscsi_stop[0m*                          [01;32mzdiff[0m*
+ [01;32minstall-info[0m*                         [01;32mscsi_temperature[0m*                   [01;32mzdump[0m*
+ [01;32minstmodsh[0m*                            [01;32msdiff[0m*                              [01;32mzegrep[0m*
+ [01;32mionice[0m*                               [01;32msed[0m*                                [01;32mzfgrep[0m*
+ [01;32mip[0m*                                   [01;36msee[0m@                                [01;32mzforce[0m*
+ [01;32mipcmk[0m*                                [01;32mselect-editor[0m*                      [01;32mzgrep[0m*
+ [01;32mipcrm[0m*                                [01;32msensible-browser[0m*                   [01;32mzipdetails[0m*
+ [01;32mipcs[0m*                                 [01;32msensible-editor[0m*                    [01;32mzless[0m*
+ [01;36miptables-xml[0m@                         [01;32msensible-pager[0m*                     [01;32mzmore[0m*
+ [01;32mischroot[0m*                             [01;32mseq[0m*                                [01;32mznew[0m*
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ ls
+[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib[0m    [01;36mlib64[0m   [01;34mlost+found[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msnap[0m  [01;34msys[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34metc[0m  [01;32minit[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmedia[0m       [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msrv[0m   [30;42mtmp[0m  [01;34mvar[0m
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ cd home
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ ls
+[0m[01;34msaranya[0m
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ ls -f[KF Desktop
+ls: cannot access 'Desktop': No such file or directory
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ ls
+[0m[01;34msaranya[0m
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ cd saranya/
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+my_unix_session
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ pwd
+/home/saranya
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cd -
+/home
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ cd -
+/home/saranya
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cd ..
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ cd ..
+]0;saranya@TIGER01810: /[01;32msaranya@TIGER01810[00m:[01;34m/[00m$ cd -
+/home
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ ..
+..: command not found
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ ls -F ../
+[0m[01;36mbin[0m@   [01;34mdev[0m/  [01;34mhome[0m/  [01;36mlib[0m@    [01;36mlib64[0m@   [01;34mlost+found[0m/  [01;34mmnt[0m/  [01;34mproc[0m/  [01;34mrun[0m/   [01;34msnap[0m/  [01;34msys[0m/  [01;34musr[0m/
+[01;34mboot[0m/  [01;34metc[0m/  [01;32minit[0m*  [01;36mlib32[0m@  [01;36mlibx32[0m@  [01;34mmedia[0m/       [01;34mopt[0m/  [01;34mroot[0m/  [01;36msbin[0m@  [01;34msrv[0m/   [30;42mtmp[0m/  [01;34mvar[0m/
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ mk[K[Kpwd
+/home
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ ls
+[0m[01;34msaranya[0m
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ cd S[Ksaranya/
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+my_unix_session
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ mkdir directory1
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+[0m[01;34mdirectory1[0m  my_unix_session
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cd directory1/
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ ls
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ lscd directory1/ls[Kmkdir directory1[K[K[K[K[K[K[K[K[K[K-p ../directory1/data ../directory1/temp
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ ls
+[0m[01;34mdata[0m  [01;34mtemp[0m
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ ls -FR ../
+../:
+[0m[01;34mdirectory1[0m/  my_unix_session
+
+../directory1:
+[01;34mdata[0m/  [01;34mtemp[0m/
+
+../directory1/data:
+
+../directory1/temp:
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ cd ..
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ld[Ks 
+[0m[01;34mdirectory1[0m  my_unix_session
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls cd ..ls -FR ../
+../:
+[0m[01;34msaranya[0m/
+
+../saranya:
+[01;34mdirectory1[0m/  my_unix_session
+
+../saranya/directory1:
+[01;34mdata[0m/  [01;34mtemp[0m/
+
+../saranya/directory1/data:
+
+../saranya/directory1/temp:
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+[0m[01;34mdirectory1[0m  my_unix_session
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cd directory1/
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ nanao [K[K[Ko tex[K[K[Knotebook.txt
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                          notebook.txt                                                    [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[2dH[?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25lT[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25la[28d[K[2;27H[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lu[?12l[?25h[?25lb[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25lu[?12l[?25h[?25l[3d[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lj[?12l[?25h[?25lu[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25lp[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l[4d[?12l[?25h[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format[16X[29;61H(B[0;7mM-A(B[m Append[15X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format[16X[30;61H(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m To Files[K[28d(B[0;7mFile Name to Write: notebook.txt                                                                                        [28;1H(B[m[28;33H[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 3 lines ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Mark Text[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy Text[28d[4d[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ touch noten[Kbook1.txt
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ ls
+[0m[01;34mdata[0m  notebook.txt  notebook1.txt  [01;34mtemp[0m
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ ls -l
+total 12
+drwxr-xr-x 2 saranya saranya 4096 Jun  7 18:09 [0m[01;34mdata[0m
+-rw-r--r-- 1 saranya saranya   74 Jun  7 18:15 notebook.txt
+-rw-r--r-- 1 saranya saranya    0 Jun  7 18:17 notebook1.txt
+drwxr-xr-x 2 saranya saranya 4096 Jun  7 18:09 [01;34mtemp[0m
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ mv notebook.txt file1[K.txt
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ ls
+[0m[01;34mdata[0m  file.txt  notebook1.txt  [01;34mtemp[0m
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ mv file.txt /temp
+mv: cannot move 'file.txt' to '/temp': Permission denied
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ mv file.txt /temp[1@s[1@u[1@d[1@o[1@ 
+[sudo] password for saranya: 
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ ls
+[0m[01;34mdata[0m  notebook1.txt  [01;34mtemp[0m
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ cd temp
+]0;saranya@TIGER01810: ~/directory1/temp[01;32msaranya@TIGER01810[00m:[01;34m~/directory1/temp[00m$ ls
+]0;saranya@TIGER01810: ~/directory1/temp[01;32msaranya@TIGER01810[00m:[01;34m~/directory1/temp[00m$ mv temp temp1
+mv: cannot stat 'temp': No such file or directory
+]0;saranya@TIGER01810: ~/directory1/temp[01;32msaranya@TIGER01810[00m:[01;34m~/directory1/temp[00m$ cd ..
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ cd ..mv temp temp1
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ ls
+[0m[01;34mdata[0m  notebook1.txt  [01;34mtemp1[0m
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ lsmv temp temp1[8Pcd ..mv temp temp1ls[Kcd templs[Ksudo mv file.txt /temp1
+mv: cannot stat 'file.txt': No such file or directory
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ sudo mv file.txt /temp1[Ktouch file.txt
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ touch file.txtsudo mv file.txt /temp1
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ cd temp1
+]0;saranya@TIGER01810: ~/directory1/temp1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1/temp1[00m$ ls
+]0;saranya@TIGER01810: ~/directory1/temp1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1/temp1[00m$ lscd temp1sudo mv file.txt /temp1./temp1./temp1
+mv: cannot stat 'file.txt': No such file or directory
+]0;saranya@TIGER01810: ~/directory1/temp1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1/temp1[00m$ cd ..
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ cd ..sudo mv file.txt ../temp1
+mv: cannot stat 'file.txt': No such file or directory
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ exit
+exit
+
+Script done on 2022-06-07 21:28:39+05:30 [COMMAND_EXIT_CODE="1"]
+Script started on 2022-06-09 14:30:07+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ pwd
+/home/saranya
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cd[K[Kmkdir -p ../project/data ../project/results
+mkdir: cannot create directory ‘../project’: Permission denied
+mkdir: cannot create directory ‘../project’: Permission denied
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cd ..
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ pwd
+/home
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ pwd[K[K[Kls
+[0m[01;34msaranya[0m
+]0;saranya@TIGER01810: /home[01;32msaranya@TIGER01810[00m:[01;34m/home[00m$ cd S[K[K[K[Kcd saranya/
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+[0m[01;34mdirectory1[0m  my_unix_session
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cd directory1/
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ ls
+[0m[01;34mdata[0m  notebook1.txt  [01;34mtemp1[0m
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ lscd directory1/ls[Kcd saranya/ls[Kpwdcd ..mkdir -p ../project/data ../project/results
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ ls -F ../project
+[0m[01;34mdata[0m/  [01;34mresults[0m/
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ ls -F ../projectR ../project
+../project:
+[0m[01;34mdata[0m/  [01;34mresults[0m/
+
+../project/data:
+
+../project/results:
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ ..
+..: command not found
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ cd ..
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+[0m[01;34mdirectory1[0m  my_unix_session  [01;34mproject[0m
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cd-
+
+Command 'cd-' not found, did you mean:
+
+  command 'cd5' from deb cd5 (0.1-4)
+  command 'cdw' from deb cdw (0.8.1-1build4)
+  command 'cdo' from deb cdo (1.9.9~rc1-1)
+  command 'cdp' from deb irpas (0.10-7)
+  command 'cde' from deb cde (0.1+git9-g551e54d-1.1build1)
+  command 'cdi' from deb cdo (1.9.9~rc1-1)
+  command 'cdb' from deb tinycdb (0.78build1)
+
+Try: sudo apt install <deb name>
+
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cd--
+cd--: command not found
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cd--[K -
+/home/saranya/directory1
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ ls
+[0m[01;34mdata[0m  notebook1.txt  [01;34mtemp1[0m
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ mv [K[K[Ktouch notebook2.txt
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ ls
+[0m[01;34mdata[0m  notebook1.txt  notebook2.txt  [01;34mtemp1[0m
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ mv notebook2.txt notebook1.txt
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ ls
+[0m[01;34mdata[0m  notebook1.txt  [01;34mtemp1[0m
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ lsmv notebook2.txt notebook1.txt[1Pnotebook1.txt[1Pnotebook1.txt[1Pnotebook1.txt[1Pnotebook1.txt[1Pnotebook1.txt[1Pnotebook1.txt[1Pnotebook1.txt[1Pnotebook1.txt[1Pnotebook1.txt[1Pnotebook1.txt[1Pnotebook1.txt[1Pnotebook1.txt[1Pnotebook1.txt[1Potebook1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C .
+mv: 'notebook1.txt' and './notebook1.txt' are the same file
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ mv notebook1.txt ..
+]0;saranya@TIGER01810: ~/directory1[01;32msaranya@TIGER01810[00m:[01;34m~/directory1[00m$ cd ..
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+[0m[01;34mdirectory1[0m  my_unix_session  notebook1.txt  [01;34mproject[0m
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls /directory1
+ls: cannot access '/directory1': No such file or directory
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls /directory1[1Pdirectory1[C[C[C[C[C[C[C[C[C[C/
+[0m[01;34mdata[0m  [01;34mtemp1[0m
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cp -r data data_backup
+cp: cannot stat 'data': No such file or directory
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+[0m[01;34mdirectory1[0m  my_unix_session  notebook1.txt  [01;34mproject[0m
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ lscp -r data data_backup[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdirectory1/data directory1/data_backup
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls directory1/
+[0m[01;34mdata[0m  [01;34mdata_backup[0m  [01;34mtemp1[0m
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ rm ls directory1/[K[K[K[K[K[K[K[K[K[K[K[K
+[0m[01;34mdirectory1[0m  my_unix_session  notebook1.txt  [01;34mproject[0m
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls directory1/[K[K[K[K[K[K[K[K[K[K[K[K[K[Krm notebook1.txt 
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+[0m[01;34mdirectory1[0m  my_unix_session  [01;34mproject[0m
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ rm -i project/
+rm: cannot remove 'project/': Is a directory
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ touch note.txt
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ touch note.txtrm -i project/[K[K[K[K[K[K[K[Knote.txt
+rm: remove regular empty file 'note.txt'? y
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+[0m[01;34mdirectory1[0m  my_unix_session  [01;34mproject[0m
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ less my_unix_session 
+"my_unix_session" may be a binary file.  See it anyway? 
+[?1049h[22;0;0t[?1h=Script started on 2022-06-07 17:06:19+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[7mESC[27m]0;saranya@TIGER01810: ~[7m^GESC[27m[01;32msaranya@TIGER01810[7mESC[27m[00m:[7mESC[27m[01;34m~[7mESC[27m[00m$ ls
+my_unix_session
+[7mESC[27m]0;saranya@TIGER01810: ~[7m^GESC[27m[01;32msaranya@TIGER01810[7mESC[27m[00m:[7mESC[27m[01;34m~[7mESC[27m[00m$ hs
+hs: command not found
+[7mESC[27m]0;saranya@TIGER01810: ~[7m^GESC[27m[01;32msaranya@TIGER01810[7mESC[27m[00m:[7mESC[27m[01;34m~[7mESC[27m[00m$ pwd
+/home/saranya
+[7mESC[27m]0;saranya@TIGER01810: ~[7m^GESC[27m[01;32msaranya@TIGER01810[7mESC[27m[00m:[7mESC[27m[01;34m~[7mESC[27m[00m$ cd ..
+[7mESC[27m]0;saranya@TIGER01810: /home[7m^GESC[27m[01;32msaranya@TIGER01810[7mESC[27m[00m:[7mESC[27m[01;34m/home[7mESC[27m[00m$ cd..
+cd..: command not found
+[7mESC[27m]0;saranya@TIGER01810: /home[7m^GESC[27m[01;32msaranya@TIGER01810[7mESC[27m[00m:[7mESC[27m[01;34m/home[7mESC[27m[00m$ cd ..
+[7mESC[27m]0;saranya@TIGER01810: /[7m^GESC[27m[01;32msaranya@TIGER01810[7mESC[27m[00m:[7mESC[27m[01;34m/[7mESC[27m[00m$ ls
+[7mESC[27m[0m[7mESC[27m[01;36mbin[7mESC[27m[0m   [7mESC[27m[01;34mdev[7mESC[27m[0m  [7mESC[27m[01;34mhome[7mESC[27m[0m  [7mESC[27m[01;36mlib[7mESC[27m[0m    [7mESC[27m[01;36mlib64[7mESC[27m[0m   
+[7mESC[27m[01;34mlost+found[7mESC[27m[0m  [7mESC[27m[01;34mmnt[7mESC[27m[0m  [7mESC[27m[01;34mproc[7mESC[27m[0m  [7mESC[27m[01;34mrun[7mESC[27m[0m   [7mESC[27m[01;34msnap[7mESC[27m[0m  [7mESC[27m[0 1;34msys[7mESC[27m[0m  [7mESC[27m[01;34musr[7mESC[27m[0m
+[7mESC[27m[01;34mboot[7mESC[27m[0m  [7mESC[27m[01;34metc[7mESC[27m[0m  [7mESC[27m[01;32minit[7mESC[27m[0m  [7mESC[27m[01;36mlib32[7mESC[27m[0m  [7mESC[27m[01;36mlibx32[7mESC[27m[0m  [7mESC[27m[01;3 4mmedia[7mESC[27m[0m       [7mESC[27m[01;34mopt[7mESC[27m[0m  [7mESC[27m[01;34mroot[7mESC[27m[0m  [7mESC[27m[01;36msbin[7mESC[27m[0m  [7mESC[27m[01;34msrv[7mESC[27m[0m   [7mESC[27m[30;42mtmp [7mESC[27m[0m  [7mESC[27m[01;34mvar[7mESC[27m[0m
+[7mESC[27m]0;saranya@TIGER01810: /[7m^GESC[27m[01;32msaranya@TIGER01810[7mESC[27m[00m:[7mESC[27m[01;34m/[7mESC[27m[00m$ cd usr
+[7mESC[27m]0;saranya@TIGER01810: /usr[7m^GESC[27m[01;32msaranya@TIGER01810[7mESC[27m[00m:[7mESC[27m[01;34m/usr[7mESC[27m[00m$ ls
+[7mESC[27m[0m[7mESC[27m[01;34mbin[7mESC[27m[0m  [7mESC[27m[01;34mgames[7mESC[27m[0m  [7mESC[27m[01;34minclude[7mESC[27m[0m  [7mESC[27m[01;34mlib[7mESC[27m[0m  [7mESC[27m[01;34mlib32[7mESC[27m[0m  
+[7mESC[27m[01;34mlib64[7mESC[27m[0m  [7mESC[27m[01;34mlibexec[7mESC[27m[0m  [7mESC[27m[01;34mlibx32[7mESC[27m[0m  [7mESC[27m[01;34mlocal[7mESC[27m[0m  [7mESC[27m[01;34msbin[7mESC[27m[0m  [7mESC[27m [01;34mshare[7mESC[27m[0m  [7mESC[27m[01;34msrc[7mESC[27m[0m
+[7mESC[27m]0;saranya@TIGER01810: /usr[7m^GESC[27m[01;32msaranya@TIGER01810[7mESC[27m[00m:[7mESC[27m[01;34m/usr[7mESC[27m[00m$ cd ..
+[7mESC[27m]0;saranya@TIGER01810: /[7m^GESC[27m[01;32msaranya@TIGER01810[7mESC[27m[00m:[7mESC[27m[01;34m/[7mESC[27m[00m$ cd home
+[7mESC[27m]0;saranya@TIGER01810: /home[7m^GESC[27m[01;32msaranya@TIGER01810[7mESC[27m[00m:[7mESC[27m[01;34m/home[7mESC[27m[00m$ ls
+[7mESC[27m[0m[7mESC[27m[01;34msaranya[7mESC[27m[0m
+[7mESC[27m]0;saranya@TIGER01810: /home[7m^GESC[27m[01;32msaranya@TIGER01810[7mESC[27m[00m:[7mESC[27m[01;34m/home[7mESC[27m[00m$ ls -F
+[7mESC[27m[0m[7mESC[27m[01;34msaranya[7mESC[27m[0m/
+[7mmy_unix_session[27m[K[K[?1l>[?1049l[23;0;0t]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+[0m[01;34mdirectory1[0m  my_unix_session  [01;34mproject[0m
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+[0m[01;34mdirectory1[0m  my_unix_session  [01;34mproject[0m
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ echo thi [Ks is saranya
+this is saranya
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ echo hello > hellow.txt
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+[0m[01;34mdirectory1[0m  hellow.txt  my_unix_session  [01;34mproject[0m
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ lsecho hello > hellow.txt> hellow.txt[C[C[C[C[C[C[1P.txt
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cat hello
+cat: hello: No such file or directory
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cat hello.txt
+hello
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cat hello.txtw.txt
+hello
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cat hellow.txt[1P.txt[Kecho hello >> hello.txtls[Kecho hello > hellow.txt[1@1
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ echo hello1 > hellow.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pcat[C[C[C[C[C[C[C[C[C[C[C[1P.txt[Kecho hello >> hello.txt[1@1
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cat hellow.txt
+hello1
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cat hellow.txt[1P.txt
+hello
+hello1
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ wc hello.txt
+ 2  2 13 hello.txt
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ wc -l hello.txt
+2 hello.txt
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ wc -l hello.txt[1P hello.txtw hello.txt
+2 hello.txt
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ wc -w hello.txt[1P hello.txtm hello.txt
+13 hello.txt
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ sort -[Khello.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[Kwc >hello_specifications.txt
+^C
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ wc >hello_specifications.txth>hello_specifications.txte>hello_specifications.txtl>hello_specifications.txtl>hello_specifications.txto>hello_specifications.txt.>hello_specifications.txtt>hello_specifications.txts>hello_specifications.txt[1P>hello_specifications.txtx>hello_specifications.txtt>hello_specifications.txt >hello_specifications.txt[C hello_specifications.txt
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+[0m[01;34mdirectory1[0m  hello.txt  hello_specifications.txt  hellow.txt  my_unix_session  [01;34mproject[0m
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ sort hello
+hello.txt                 hello_specifications.txt  hellow.txt                
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ sort hello_specifications.txt 
+ 2  2 13 hello.txt
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ echo hi > hi.txt
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ echo hii >>hi.txt
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ echo hii >>hi.txt1 >>hi.txt
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ wc *.txt >length.txt
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ sort length.txt 
+ 1  1  7 hellow.txt
+ 1  4 19 hello_specifications.txt
+ 2  2 13 hello.txt
+ 3  3 12 hi.txt
+ 7 10 51 total
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ sort length.txt [1@-[1@ [1@n[1@ 
+sort: cannot read: n: No such file or directory
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ sort - n length.txt [1P
+ 1  1  7 hellow.txt
+ 1  4 19 hello_specifications.txt
+ 2  2 13 hello.txt
+ 3  3 12 hi.txt
+ 7 10 51 total
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ sort -n length.txt [1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C | head -n 1
+ 1  1  7 hellow.txt
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ for file na[K[K[Kname in hello.txt hi.txt
+> do
+>   head n[K-n 2 $filename | tail -n 1
+> done
+hello1
+hii
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ for filename in hello.txt hi.txt; do   head -n 2 $filename | tail -n 1; done
+hello1
+hii
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ for filename in hello.txt hi.txt; do   head -n 2 $filename | tail -n 1; done[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+> do
+> tail -n 1 $filename
+> done
+hello1
+hii1
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ for filename in hello.txt hi.txt; do tail -n 1 $filename; done[1P[1P[1P[1P[1@h[1@e[1@a[1@d
+hello
+hi
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ [K]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ [K]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ for i in 0,1,2,3,4,5,6,7,8,9
+> do [K
+> echo $i
+> done
+0,1,2,3,4,5,6,7,8,9
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ history | tail -n 2
+  170  for i in 0,1,2,3,4,5,6,7,8,9; do echo $i; done
+  171  history | tail -n 2
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ we[Kc my_unix_session 
+  944  4558 89956 my_unix_session
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ grep h hi.txt
+[01;31m[Kh[m[Ki
+[01;31m[Kh[m[Kii
+[01;31m[Kh[m[Kii1
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ grep h hi.txt[1P hi.txt1 hi.txt
+hii[01;31m[K1[m[K
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ grep 1 hi.txth[C[C[C[C[C[C[Cwc my_unix_session history | tail -n 2
+  174  grep 1 hi.txt
+  175  history | tail -n 2
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ history | tail -n 2[6Pgrep 1 hi.txth[C[C[C[C[C[C[Cwc my_unix_session 
+  944  4558 89956 my_unix_session
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-06-09 21:07:50+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-06-09 21:08:10+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ echo saranya baireddy >> hi.txt
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ less hi.txt
+[?1049h[22;0;0t[?1h=hi
+hii
+hii1
+saranya baireddy
+[7mhi.txt (END)[27m[K[K [KESCESC[Kqq[K[7m(END)[27m[K[K [K^X^X[K^J^J[K[7m(END)[27m[K[K [KESCESC[KOO[KFF[K...skipping...
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+hi
+hii
+hii1
+saranya baireddy
+[7m(END)[27m[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ find . -type f
+./.landscape/sysinfo.log
+./.sudo_as_admin_successful
+./my_unix_session
+./.bash_history
+./hellow.txt
+./hi.txt
+./.motd_shown
+./length.txt
+./.profile
+./.bash_logout
+./.bashrc
+./hello_specifications.txt
+./hello.txt
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ find . -type f[Kd
+.
+./.landscape
+./project
+./project/data
+./project/results
+./.local
+./.local/share
+./.local/share/nano
+./directory1
+./directory1/data
+./directory1/data_backup
+./directory1/temp1
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ exi[K[K[Kfind . -type df[3Pless hi.txt[20@echo saranya baireddy >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cxit[Kwc my_unix_session 
+  978  4694 91925 my_unix_session
+]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-06-09 21:17:44+05:30 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,267 @@
+Script started on 2022-06-13 11:21:14+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ sudo apt get install git
+[sudo] password for saranya: 
+[1;31mE: [0mInvalid operation get[0m
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ sudo apt get install git[1P[1P[1P[1P[1P[1@ 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.25.1-1ubuntu3).
+git set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+Git_Session  Miniconda_Session  [0m[01;34mdirectory1[0m  [01;34mminiconda3[0m  my_unix_session  [01;34mproject[0m
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ lssudo apt install git
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.25.1-1ubuntu3).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ sudo apt install git-all
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+[1;31mE: [0mUnable to locate package git-all[0m
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ git config --list
+[?1h=[K[?1l>(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ git config --list
+[?1h=[K[?1l>(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ git config --list --show-origin
+[?1h=[K[?1l>(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ git config --global user.name "John Doe"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"S"a"t"[1P"r"a"n"y"a"
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ git config --global user.name "Saranya"[K[K[K[K[K[K[K[K[K[K[K[K[K[Kemail saranya.baireddy[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksaranya.baireddy@tigeranalytics.com
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ git config --global user.email saranya.baireddy@tigeranalytics.com[27Pname "Saranya"[8Plist --show-origin[K
+[?1h=user.name=Saranya[m
+user.email=saranya.baireddy@tigeranalytics.com[m
+[K[?1l>(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ git config --listglobal user.email saranya.baireddy@tigeranalytics.com[27Pname "Saranya"[1P"[1P"[1P"[1P"[1P"[1P"[1P"5saranya"
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ git config --global user.name "5saranya"list[K
+[?1h=user.name=5saranya[m
+user.email=saranya.baireddy@tigeranalytics.com[m
+[K[?1l>(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ pwd
+/home/saranya
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+Git_Session  Miniconda_Session  [0m[01;34mdirectory1[0m  [01;34mminiconda3[0m  my_unix_session  [01;34mproject[0m
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ mkdir TCE
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+Git_Session  Miniconda_Session  [0m[01;34mTCE[0m  [01;34mdirectory1[0m  [01;34mminiconda3[0m  my_unix_session  [01;34mproject[0m
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ mv  Miniconda_Session TCE
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+Git_Session  [0m[01;34mTCE[0m  [01;34mdirectory1[0m  [01;34mminiconda3[0m  my_unix_session  [01;34mproject[0m
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cd TCE/
+(base) ]0;saranya@TIGER01810: ~/TCE[01;32msaranya@TIGER01810[00m:[01;34m~/TCE[00m$ L[Kls
+Miniconda_Session
+(base) ]0;saranya@TIGER01810: ~/TCE[01;32msaranya@TIGER01810[00m:[01;34m~/TCE[00m$ wc Miniconda_Session 
+  432  2959 38634 Miniconda_Session
+(base) ]0;saranya@TIGER01810: ~/TCE[01;32msaranya@TIGER01810[00m:[01;34m~/TCE[00m$ M[Kmkdir Assignment1.1
+(base) ]0;saranya@TIGER01810: ~/TCE[01;32msaranya@TIGER01810[00m:[01;34m~/TCE[00m$ mv m[Km[KMiniconda_Session  Assignment1.1/
+(base) ]0;saranya@TIGER01810: ~/TCE[01;32msaranya@TIGER01810[00m:[01;34m~/TCE[00m$ ls
+[0m[01;34mAssignment1.1[0m
+(base) ]0;saranya@TIGER01810: ~/TCE[01;32msaranya@TIGER01810[00m:[01;34m~/TCE[00m$ cd Assignment1.1/
+(base) ]0;saranya@TIGER01810: ~/TCE/Assignment1.1[01;32msaranya@TIGER01810[00m:[01;34m~/TCE/Assignment1.1[00m$ ls
+Miniconda_Session
+(base) ]0;saranya@TIGER01810: ~/TCE/Assignment1.1[01;32msaranya@TIGER01810[00m:[01;34m~/TCE/Assignment1.1[00m$ cd ..
+(base) ]0;saranya@TIGER01810: ~/TCE[01;32msaranya@TIGER01810[00m:[01;34m~/TCE[00m$ cd ..
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ pwd
+/home/saranya
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ CD[K[Kcd TCE/Assignment1.1/
+(base) ]0;saranya@TIGER01810: ~/TCE/Assignment1.1[01;32msaranya@TIGER01810[00m:[01;34m~/TCE/Assignment1.1[00m$ cd ..
+(base) ]0;saranya@TIGER01810: ~/TCE[01;32msaranya@TIGER01810[00m:[01;34m~/TCE[00m$ cd ..
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+Git_Session  [0m[01;34mTCE[0m  [01;34mdirectory1[0m  [01;34mminiconda3[0m  my_unix_session  [01;34mproject[0m
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ mkdir Example[K[K[K[K[K[K[KTest1[K[K[K[K[KGit_Test
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls g[K[KG[K Git_
+Git_Session  Git_Test/    
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls Git_Test/
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ git init
+Initialized empty Git repository in /home/saranya/.git/
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ ls
+Git_Session  [0m[01;34mGit_Test[0m  [01;34mTCE[0m  [01;34mdirectory1[0m  [01;34mminiconda3[0m  my_unix_session  [01;34mproject[0m
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ cd Git_Test/
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ ls
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ lscd Git_Test/ls[Kgit init
+Initialized empty Git repository in /home/saranya/Git_Test/.git/
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ touch test1.txt
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ ls
+test1.txt
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest1.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git add README[K[K[K[K[K[Ktest1.txt 
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   test1.txt[m
+
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ touch test2.txt
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   test1.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest2.txt[m
+
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git statustouch test2.txt[5Pgit statusadd test1.txt [1P[1@2
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git add test2.txt [8Pstatus
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   test1.txt[m
+	[32mnew file:   test2.txt[m
+
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git status -s
+[32mA[m  test1.txt
+[32mA[m  test2.txt
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ vim text1.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"text1.txt" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [27;1H~                                                                                                                       [28;1H~                                                                                                                       [29;1H~                                                                                                                       [m[30;103H0,0-1[9CAll[1;1H[?25h[?25l[30;93Hi[1;1H[30;93H [1;1H[30;1H[1m-- INSERT --[m[30;13H[K[30;103H0,1[11CAll[1;1H[?25h[?25lh[30;103H1,2[1;2H[?25h[?25li[30;105H3[1;3H[?25h[?25l[30;1H[K[30;103H1,2[11CAll[1;2H[?25h[?25l[30;93Hq[1;2H[?25h[?25l[30;94Hq[1;2H[30;1H[1mrecording @q[m[30;93H[K[30;103H1,2[11CAll[1;2H[?25h[?25l[30;93H^M[1;2H[30;93H  [1;2H[?25h[?25l[30;93H^M[1;2H[30;93H  [1;2H[?25h[?25l[30;93H^[[1;2H[30;93H  [1;2H[30;93H^[[1;2H[30;93H  [1;2H[?25h[?25l[30;93H^[[1;2H[30;93H  [1;2H[30;93H^[[1;2H[30;93H  [1;2H[?25h[?25l[30;93H^[[1;2H[30;93H  [1;2H[30;93H^[[1;2H[30;93H  [1;2H[?25h[?25l[30;93H^[[1;2H[30;93H  [1;2H[30;93H^[[1;2H[30;93H  [1;2H[?25h[?25l[30;93H^[[1;2H[30;93H  [1;2H[30;93H^[[1;2H[30;93H  [1;2H[?25h[?25l[30;93H^[[1;2H[30;93H  [1;2H[30;93H^[[1;2H[30;93H  [1;2H[?25h[?25l[30;93H~@k[1;2H[30;93H   [1;2H[?25h[?25l[30;93H~@k[1;2H[30;93H   [1;2H[?25h[?25l[30;93H~@k[1;2H[30;93H   [1;2H[?25h[?25l[30;93H~@k[1;2H[30;93H   [1;2H[?25h[?25l[30;93H~@k[1;2H[30;93H   [1;2H[?25h[?25l[30;93H~@k[1;2H[30;93H   [1;2H[?25h[?25l[30;93Hi[1;2H[30;93H [1;2H[30;1H[1m--c INSERT --[m [1mrecording @q[m[30;103H[K[30;103H1,2[11CAll[1;2H[?25h[30;1H[1mrecording @qr[m[30;13H[K[1;1H[?25l[30;93H^[[1;1H[30;93H  [1;2H[30;103H1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1Hhi
+[94m~                                                                                                                                                                       [3;1H~                                                                                                                                                                       [4;1H~                                                                                                                                                                       [5;1H~                                                                                                                                                                       [6;1H~                                                                                                                                                                       [7;1H~                                                                                                                                                                       [8;1H~                                                                                                                                                                       [9;1H~                                                                                                                                                                       [10;1H~                                                                                                                                                                       [11;1H~                                                                                                                                                                       [12;1H~                                                                                                                                                                       [13;1H~                                                                                                                                                                       [14;1H~                                                                                                                                                                       [15;1H~                                                                                                                                                                       [16;1H~                                                                                                                                                                       [17;1H~                                                                                                                                                                       [18;1H~                                                                                                                                                                       [19;1H~                                                                                                                                                                       [20;1H~                                                                                                                                                                       [21;1H~                                                                                                                                                                       [22;1H~                                                                                                                                                                       [23;1H~                                                                                                                                                                       [24;1H~                                                                                                                                                                       [25;1H~                                                                                                                                                                       [26;1H~                                                                                                                                                                       [27;1H~                                                                                                                                                                       [28;1H~                                                                                                                                                                       [29;1H~                                                                                                                                                                       [30;1H~                                                                                                                                                                       [31;1H~                                                                                                                                                                       [32;1H~                                                                                                                                                                       [33;1H~                                                                                                                                                                       [34;1H~                                                                                                                                                                       [35;1H~                                                                                                                                                                       [36;1H~                                                                                                                                                                       [37;1H~                                                                                                                                                                       [38;1H~                                                                                                                                                                       [39;1H~                                                                                                                                                                       [40;1H~                                                                                                                                                                       [41;1H~                                                                                                                                                                       [42;1H~                                                                                                                                                                       [43;1H~                                                                                                                                                                       [m[44;1H[1mrecording @q[m[138C1,1[11CAll[1;1H[?25h[?25l[44;141Hi[1;1H[44;141H [1;1H[44;1H[1m--c INSERT --[m [1mrecording @q[m[44;151H[K[44;151H1,1[11CAll[1;1H[?25h[?25lwhi[44;153H2[1;2H[?25h[?25lhi[1;3H[K[44;153H1[1;1H[?25h[?25l[44;153H2[1;2H[?25h[?25l[44;153H3[1;3H[?25h[?25l[44;153H4[1;4H[?25h[?25lh[44;153H5[1;5H[?25h[?25le[44;153H6[1;6H[?25h[?25ll[44;153H7[1;7H[?25h[?25ll[44;153H8[1;8H[?25h[?25lo[44;153H9[1;9H[?25h[?25l[44;153H10[1;10H[?25h[?25lh[44;154H1[1;11H[?25h[?25lo[44;154H2[1;12H[?25h[?25lw[44;154H3[1;13H[?25h[?25l[44;154H4[1;14H[?25h[?25la[44;154H5[1;15H[?25h[?25lr[44;154H6[1;16H[?25h[?25le[44;154H7[1;17H[?25h[?25l[44;154H8[1;18H[?25h[?25ly[44;154H9[1;19H[?25h[?25lo[44;153H20[1;20H[?25h[?25lu[44;154H1[1;21H[?25h[44;1H[1mrecording @qr[m[44;13H[K[1;20H[?25l[44;141H^[[1;20H[44;141H  [1;21H[44;151H1,20[10CAll[1;20H[?25h[?25l[44;141H:[1;20H[44;1H[K[44;1H:[?2004h[?25hw[?25l[44;2H[K[44;2H[?25hx[?25l[?2004l"text1.txt" [New] 1L, 21C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ vim text1.txtgit status -s[K[K[K
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   test1.txt[m
+	[32mnew file:   test2.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtext1.txt[m
+
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git diff
+[?1h=[K[?1l>(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git add text1.txt 
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git add text1.txt diff[K
+[?1h=[K[?1l>(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   test1.txt[m
+	[32mnew file:   test2.txt[m
+	[32mnew file:   text1.txt[m
+
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ vim test1.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;44r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[44;1H"test1.txt" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                                                                       [3;1H~                                                                                                                                                                       [4;1H~                                                                                                                                                                       [5;1H~                                                                                                                                                                       [6;1H~                                                                                                                                                                       [7;1H~                                                                                                                                                                       [8;1H~                                                                                                                                                                       [9;1H~                                                                                                                                                                       [10;1H~                                                                                                                                                                       [11;1H~                                                                                                                                                                       [12;1H~                                                                                                                                                                       [13;1H~                                                                                                                                                                       [14;1H~                                                                                                                                                                       [15;1H~                                                                                                                                                                       [16;1H~                                                                                                                                                                       [17;1H~                                                                                                                                                                       [18;1H~                                                                                                                                                                       [19;1H~                                                                                                                                                                       [20;1H~                                                                                                                                                                       [21;1H~                                                                                                                                                                       [22;1H~                                                                                                                                                                       [23;1H~                                                                                                                                                                       [24;1H~                                                                                                                                                                       [25;1H~                                                                                                                                                                       [26;1H~                                                                                                                                                                       [27;1H~                                                                                                                                                                       [28;1H~                                                                                                                                                                       [29;1H~                                                                                                                                                                       [30;1H~                                                                                                                                                                       [31;1H~                                                                                                                                                                       [32;1H~                                                                                                                                                                       [33;1H~                                                                                                                                                                       [34;1H~                                                                                                                                                                       [35;1H~                                                                                                                                                                       [36;1H~                                                                                                                                                                       [37;1H~                                                                                                                                                                       [38;1H~                                                                                                                                                                       [39;1H~                                                                                                                                                                       [40;1H~                                                                                                                                                                       [41;1H~                                                                                                                                                                       [42;1H~                                                                                                                                                                       [43;1H~                                                                                                                                                                       [m[44;151H0,0-1[9CAll[1;1H[?25h[?25l[44;141Hi[1;1H[44;141H [1;1H[44;1H[1m-- INSERT --[m[44;13H[K[44;151H0,1[11CAll[1;1H[?25h[?25lt[44;151H1,2[1;2H[?25h[?25lh[44;153H3[1;3H[?25h[?25li[44;153H4[1;4H[?25h[?25ls[44;153H5[1;5H[?25h[?25l[44;153H6[1;6H[?25h[?25li[44;153H7[1;7H[?25h[?25ls[44;153H8[1;8H[?25h[?25l[44;153H9[1;9H[?25h[?25lf[44;153H10[1;10H[?25h[?25li[44;154H1[1;11H[?25h[?25lr[44;154H2[1;12H[?25h[?25ls[44;154H3[1;13H[?25h[?25lt[44;154H4[1;14H[?25h[?25l[44;154H5[1;15H[?25h[?25lf[44;154H6[1;16H[?25h[?25li[44;154H7[1;17H[?25h[?25ll[44;154H8[1;18H[?25h[?25le[44;154H9[1;19H[?25h[?25l[44;153H20[1;20H[?25h[44;1H[K[1;19H[?25l[44;141H^[[1;19H[44;141H  [1;20H[44;151H1,19[10CAll[1;19H[?25h[?25l[44;141H:[1;19H[44;141H[K[44;1H:[?2004h[?25hx[?25l[?2004l"test1.txt" 1L, 20C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ vim test1.txt[3Pgit status[2Pdiff
+[?1h=[1mdiff --git a/test1.txt b/test1.txt[m[m
+[1mindex e69de29..de07109 100644[m[m
+[1m--- a/test1.txt[m[m
+[1m+++ b/test1.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mthis is first file[m[41m [m[m
+[K[?1l>(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git diffvim test1.txt[3Pgit status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   test1.txt[m
+	[32mnew file:   test2.txt[m
+	[32mnew file:   text1.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   test1.txt[m
+
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ gid[Kt add test1.txt 
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git diff --staged
+[?1h=[1mdiff --git a/test1.txt b/test1.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..de07109[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/test1.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mthis is first file[m[41m [m[m
+[1mdiff --git a/test2.txt b/test2.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..e69de29[m[m
+[1mdiff --git a/text1.txt b/text1.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..fff0dad[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/text1.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mhi hello how are you[m[m
+[K[?1l>(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ [K(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git commit
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 13 lines ](B[m[H(B[0;7m  GNU nano 4.8                           /home/saranya/Git_Test/.git/COMMIT_EDITMSG                                     [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[3d[39;49m[36m# Please enter the commit message for your changes. Lines starting[4d# with '#' will be ignored, and an empty message aborts the commit.[5d#[6d# On branch master[7d#[8d# Initial commit[9d#[10d# Changes to be committed:[11d#       new file:   test1.txt[12d#       new file:   test2.txt[13d#       new file:   text1.txt[14d#[2d[39m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[2dt[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l_[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25lm[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l7[3;27r8[3dM[1;30r[3;1H[?12l[?25h[?25l[3;27r[27;1H
+[1;30r[2;12H[?12l[?25h[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[KAborting commit due to empty commit message.
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ o[Kgit commit -m "test commit"
+[master (root-commit) 4ea7f5e] test commit
+ 3 files changed, 2 insertions(+)
+ create mode 100644 test1.txt
+ create mode 100644 test2.txt
+ create mode 100644 text1.txt
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git log
+[?1h=[33mcommit 4ea7f5e46b68f30c68a264ca74745ad2d90b3b23[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: 5saranya <saranya.baireddy@tigeranalytics.com>[m
+Date:   Mon Jun 13 15:18:35 2022 +0530[m
+[m
+    test commit[m
+[K[?1l>(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ exit
+exit
+
+Script done on 2022-06-13 16:20:27+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-06-13 16:38:28+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+(base) ]0;saranya@TIGER01810: ~[01;32msaranya@TIGER01810[00m:[01;34m~[00m$ https://github.com/5saranya/TCE.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd Git_Test/t[KAa[Kss[K[K[K[K
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ ls
+test1.txt  test2.txt  text1.txt
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git clone https://github.com/5saranya/TCE.git
+Cloning into 'TCE'...
+Username for 'https://github.com': 5saranya
+Password for 'https://5saranya@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/5saranya/TCE.git/'
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git clone https://github.com/5saranya/TCE.git
+Cloning into 'TCE'...
+Username for 'https://github.com': 5saranya
+Password for 'https://5saranya@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/5saranya/TCE.git/'
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git clone https://github.com/5saranya/TCE.git
+Cloning into 'TCE'...
+Username for 'https://github.com': D 5saranya
+Password for 'https://5saranya@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/5saranya/TCE.git/'
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git clone https://github.com/5saranya/TCE.git
+Cloning into 'TCE'...
+Username for 'https://github.com': 5S saranya
+Password for 'https://5saranya@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/5saranya/TCE.git/'
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git clone https://github.com/5saranya/TCE.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K https://github.com/5saranya/test.git
+Cloning into 'test'...
+warning: You appear to have cloned an empty repository.
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ git remote
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ cd[K[Kls
+[0m[01;34mtest[0m  test1.txt  test2.txt  text1.txt
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ cd test
+(base) ]0;saranya@TIGER01810: ~/Git_Test/test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test/test[00m$ ls
+(base) ]0;saranya@TIGER01810: ~/Git_Test/test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test/test[00m$ cd ..
+(base) ]0;saranya@TIGER01810: ~/Git_Test[01;32msaranya@TIGER01810[00m:[01;34m~/Git_Test[00m$ cd ..[3Plscd testls[Kgit remote -v
+(base) ]0;saranya@TIGER01810: ~/
